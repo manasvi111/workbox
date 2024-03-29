@@ -35,3 +35,10 @@ Help us improve the project's documentation by submitting pull requests with upd
 
 ### Code Contributions: 
 Fix bugs, implement new features, or refactor existing code. Check the open issues for opportunities to contribute.
+
+## Issue Labels
+    
+The Workbox project uses the following labels to help contributors identify suitable issues:
+
+- 'good first issue': These issues are generally straightforward and a great starting point for new contributors.
+- 'help wanted': The Workbox team is actively seeking contributions for these issues.
