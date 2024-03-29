@@ -20,3 +20,18 @@ All contributions should adhere to the project's code style and quality standard
 
 ### Sign the CLA: 
 Before your contributions can be accepted, you'll need to sign the Workbox Contributor License Agreement (CLA). You can find more information about the CLA and the signing process in the CONTRIBUTING.md file.
+
+## Contribution Types
+
+The Workbox project welcomes various types of contributions, including:
+### Bug Reports: 
+If you've encountered a bug or issue with Workbox, please open a new issue and provide detailed information about the problem.
+
+### Feature Requests: 
+Do you have an idea for a new feature or improvement? Open a new issue and share your proposal with the community.
+
+### Documentation Improvements: 
+Help us improve the project's documentation by submitting pull requests with updates, clarifications, or new content.
+
+### Code Contributions: 
+Fix bugs, implement new features, or refactor existing code. Check the open issues for opportunities to contribute.
