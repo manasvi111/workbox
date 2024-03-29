@@ -81,3 +81,9 @@ registerRoute(
 );
 
 This code sets up a cache-first strategy for page navigations, ensuring that the responses are cached and served from the cache whenever possible.
+
+## Updating Assets and Service Workers
+Workbox also provides tools and strategies for updating assets and service workers in your PWA. The 'workbox-precaching' module, for example, can help manage updates to precached assets, ensuring that users always have access to the latest version of your application.
+
+Additionally, Workbox includes features to help with service worker updates, such as the ability to force a service worker update and notify users of changes.
+
