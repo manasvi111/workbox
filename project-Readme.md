@@ -37,8 +37,13 @@ Help us improve the project's documentation by submitting pull requests with upd
 Fix bugs, implement new features, or refactor existing code. Check the open issues for opportunities to contribute.
 
 ## Issue Labels
-    
+
 The Workbox project uses the following labels to help contributors identify suitable issues:
 
 - 'good first issue': These issues are generally straightforward and a great starting point for new contributors.
 - 'help wanted': The Workbox team is actively seeking contributions for these issues.
+
+## Contribution Review Process
+The Workbox team will review all contributions and provide feedback. Accepted contributions will be merged into the project. Please be patient during the review process, as the team may have a backlog of submissions to process.
+
+## 
