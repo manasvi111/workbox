@@ -46,4 +46,15 @@ The Workbox project uses the following labels to help contributors identify suit
 ## Contribution Review Process
 The Workbox team will review all contributions and provide feedback. Accepted contributions will be merged into the project. Please be patient during the review process, as the team may have a backlog of submissions to process.
 
-## 
+## Workbox Modules and Usage
+Workbox includes several modules, each focused on a different aspect of managing assets and service workers for PWAs. These modules can be used in different contexts, such as within a service worker, in the main window context, or as part of a build system.
+
+Some of the key Workbox modules include:
+
+- workbox-routing: Handles routing requests to different caching strategies.
+- workbox-strategies: Provides a set of runtime caching strategies.
+- workbox-precaching: Simplifies the process of precaching assets during the service worker installation phase.
+- workbox-expiration: Helps manage cache expiration based on time or number of items.
+- workbox-window: Simplifies service worker registration and updates in the main window context.
+
+Workbox can be integrated into your PWA in various ways, such as using the Workbox CLI, the Workbox Build npm module, or the workbox-sw library for loading Workbox from a CDN.
