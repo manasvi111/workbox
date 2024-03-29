@@ -58,3 +58,26 @@ Some of the key Workbox modules include:
 - workbox-window: Simplifies service worker registration and updates in the main window context.
 
 Workbox can be integrated into your PWA in various ways, such as using the Workbox CLI, the Workbox Build npm module, or the workbox-sw library for loading Workbox from a CDN.
+
+## Caching and serving with the Workbox
+One of the primary use cases for Workbox is to handle caching and serving of assets in your PWA. The 'workbox-routing' and 'workbox-strategies' modules work together to enable this functionality.
+
+The following code sample demonstrates how to use a cache-first strategy to cache and serve page navigations:
+
+import { registerRoute } from 'workbox-routing';
+import { CacheFirst } from 'workbox-strategies';
+import { CacheableResponsePlugin } from 'workbox-cacheable-response';
+
+registerRoute(
+  ({ request }) => request.mode === 'navigate',
+  new CacheFirst({
+    cacheName: 'pages',
+    plugins: [
+      new CacheableResponsePlugin({
+        statuses: [200],
+      }),
+    ],
+  })
+);
+
+This code sets up a cache-first strategy for page navigations, ensuring that the responses are cached and served from the cache whenever possible.
